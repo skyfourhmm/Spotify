@@ -1,0 +1,49 @@
+
+th {
+    color: #fff;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td { 
+    height: 48px;
+    text-align: center;
+}
+
+td {
+    color: #a3a3a3;
+}
+
+.title {
+    text-align: left;
+    width: 60%;
+}
+
+.count {
+    width: 10%;
+}
+
+.download {
+    width: 10%;
+}
+
+tbody {
+    background-color: #1e293b;
+}
+
+tbody tr:hover {
+    background-color: #475569;
+}
+
+.active td {
+    color: turquoise;
+    background-color: #475569;
+}
+
+.container {
+    overflow: auto;
+}
+

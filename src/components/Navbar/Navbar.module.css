@@ -1,0 +1,13 @@
+.nav {
+    display: flex;
+    background-color: #111827;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    height: 125px;
+    font-size: 35px;
+}
+
+.nav i {
+    padding-right: 20px;
+}

@@ -1,0 +1,54 @@
+.headertitle {
+    color: #38bdf8;
+    margin: 7px 0 0 16px;
+    font-weight: 700;
+}
+
+.title {
+    margin-left: 16px;
+    font-size: 24px;
+    color: #a3a3a3;
+}
+
+.image {
+    width: 255px;
+    height: 255px;
+    margin: 50px auto 10px auto;
+    overflow: hidden;
+
+}
+
+.image img {
+    width: 100%;
+}
+
+.thumbsNail {
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    margin-left: 108px;
+}
+
+.thumbsNail img {
+    border-radius: 50%;
+    width: 100%;
+    margin-right: 100px;
+}
+
+.thumbsNail span {
+    font-size: 20px;
+    color: #37bdf8;
+    white-space: nowrap
+}
+
+.textContainer {
+    width: 300px; /* Đặt chiều rộng tùy ý cho vùng chứa chữ */
+    white-space: nowrap; /* Ngăn chữ xuống dòng */
+    overflow: hidden; /* Ẩn phần chữ vượt quá kích thước của vùng chứa */
+    text-overflow: ellipsis; /* Thêm dấu chấm elipsis (...) khi chữ vượt quá */
+}
+  
+.textContainer:hover {
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); /* Áp dụng hiệu ứng mờ khi rê chuột qua */
+ }
